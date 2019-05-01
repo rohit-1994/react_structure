@@ -1,0 +1,23 @@
+@import '../../../Themes/colors';
+@import '../../../Themes/sizes';
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    .loader-wrapper {
+        display: flex;
+        align-items: center;
+        padding: $double-gap;
+        background-color: $white;
+        .spinner {
+            width: $normal-size;
+            height: $normal-size;
+        }
+        .message {
+            margin-left: $double-gap;
+            font-size: $heading-font;
+        }
+    }
+}

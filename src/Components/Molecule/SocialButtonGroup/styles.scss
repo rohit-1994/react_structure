@@ -1,0 +1,32 @@
+@import '../../../Themes/colors';
+@import '../../../Themes/sizes';
+.social-login {
+    p {
+        display: flex;
+        width: 100%;
+        margin: $double-gap auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    p::before,
+    p::after {
+        content: '';
+        flex: 1 1;
+        border-top: 1px solid $darkgrey;
+        margin: 0 $base-gap 0 0;
+    }
+    p::after {
+        margin: 0 0 0 $base-gap;
+    }
+    button {
+        cursor: pointer;
+        width: 100%;
+        padding: $small-gap 0px
+    }
+    .facebook-button {
+        @media screen and (max-width: $md-break) {
+            margin-bottom: $base-gap;
+        }
+    }
+}

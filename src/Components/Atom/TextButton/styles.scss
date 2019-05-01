@@ -1,0 +1,9 @@
+@import '../../../Themes/colors';
+@import '../../../Themes/sizes';
+.custom-text-button {
+    cursor: pointer;
+    color: $grey;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}

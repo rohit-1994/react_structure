@@ -1,0 +1,9 @@
+@import '../../../Themes/colors';
+@import '../../../Themes/sizes';
+.login-page {
+    form {
+        .login-button {
+            width: 100%;
+        }
+    }
+}

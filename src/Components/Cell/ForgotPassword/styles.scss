@@ -1,0 +1,16 @@
+@import '../../../Themes/colors';
+@import '../../../Themes/sizes';
+.forgot-password {
+    padding: $bigger-gap;
+    .success-info {
+        p span {
+            color: $primary-green;
+        }
+    }
+    .send-button {
+        width: 100%;
+    }
+    .back-link {
+        margin-top: $bigger-gap;
+    }
+}

@@ -1,0 +1,60 @@
+@import '../../../Themes/colors';
+@import '../../../Themes/sizes';
+.modal {
+    padding: 0px;
+}
+
+.auth-modal {
+    display: flex;
+    padding: $base-gap;
+    width: calc(100% - 2*10);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    .modal-content {
+        padding: 0px;
+        background-color: $white;
+        .close-btn-wrapper {
+            position: absolute;
+            width: 100%;
+            top: -40px;
+            text-align: center;
+            .close-btn {
+                cursor: pointer;
+                background: none;
+                border: none;
+                outline: none;
+                .close-btn-icon {
+                    color: $white;
+                    font-size: $largest-font;
+                }
+            }
+        }
+        .nav,
+        .tab {
+            padding: 0px;
+            line-height: $tab-height;
+            border: none !important;
+        }
+        .tab {
+            width: 50%;
+            text-align: center;
+            color: $darkgrey;
+            background-color: $lightgrey;
+        }
+        .tab.active {
+            color: $primary-green;
+            background-color: $white;
+        }
+        .tab-content {
+            padding: $bigger-gap;
+        }
+        form {
+            margin-top: $bigger-gap;
+            text-align: center;
+            .nav-link {
+                color: $primary-green;
+            }
+        }
+    }
+}

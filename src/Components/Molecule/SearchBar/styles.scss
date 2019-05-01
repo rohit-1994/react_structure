@@ -1,0 +1,19 @@
+@import '../../../Themes/colors';
+@import '../../../Themes/sizes';
+.search-bar {
+    .column {
+        margin: $small-gap 0px;
+    }
+    input,
+    button {
+        width: 100%;
+        height: $button-height;
+    }
+    input {
+        padding: $small-gap $double-gap;
+        color: $black;
+        background-color: $lightgrey;
+        border: none;
+        outline: none;
+    }
+}

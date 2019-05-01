@@ -1,0 +1,72 @@
+@import '../../../Themes/colors';
+@import '../../../Themes/sizes';
+footer {
+    color: $white;
+    background-color: $footer-background;
+    .footer-top {
+        padding: $bigger-gap 2*$bigger-gap;
+        .links-row {
+            margin-top: $bigger-gap;
+            ul {
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+            }
+            .nav-link {
+                padding: $base-gap 0px;
+                color: $white;
+            }
+            .nav-link:hover {
+                color: $primary-green;
+            }
+            .appstore-button {
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                margin-top: $base-gap;
+                padding: $small-gap;
+                border-radius: $normal-radius;
+                border: none;
+                outline: none;
+                .button-text {
+                    margin-left: $small-gap;
+                    margin-right: $double-gap;
+                    p {
+                        margin: 0px;
+                        font-size: $smallest-font;
+                    }
+                    span {
+                        font-size: $normal-font;
+                    }
+                }
+            }
+            .social-list {
+                li {
+                    display: flex;
+                    justify-content: center;
+                    .nav-link {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-bottom: $double-gap;
+                        width: $normal-width;
+                        height: $normal-width;
+                        border-radius: $normal-width/2;
+                        background-color: $white;
+                        .icon {
+                            color: $black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer-bottom {
+        border-top: 0.5px solid $grey;
+        p {
+            margin: 0px;
+            padding: $double-gap;
+            text-align: center;
+        }
+    }
+}

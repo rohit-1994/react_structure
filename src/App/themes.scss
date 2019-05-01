@@ -1,0 +1,17 @@
+@import '../Themes/colors';
+@import '../Themes/sizes';
+.border-facebook {
+    border-color: $facebook !important;
+}
+
+.text-facebook {
+    color: $facebook !important;
+}
+
+.border-google {
+    border-color: $red !important;
+}
+
+.text-google {
+    color: $red !important;
+}

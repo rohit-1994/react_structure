@@ -1,0 +1,18 @@
+@import '../../../Themes/colors';
+@import '../../../Themes/sizes';
+.custom-form-group {
+    input {
+        padding: $small-gap $base-gap;
+        height: $input-height;
+        line-height: $input-height - 2*$small-gap;
+        background-color: $lightgrey;
+        border-radius: 0px;
+        border-width: 0px;
+    }
+    input:focus {
+        background-color: $lightgrey;
+    }
+    .error-text {
+        color: $red;
+    }
+}
